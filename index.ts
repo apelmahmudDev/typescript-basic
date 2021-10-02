@@ -17,3 +17,7 @@ const user: User = {
 	age: 33,
 	id: 334,
 };
+
+const userInfo = (name: string, age: number, id: number) => {
+	return `${name} is ${age} year's old and  id ${id}`;
+};
